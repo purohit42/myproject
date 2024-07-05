@@ -80,7 +80,7 @@ DATABASES = {
         "USER": "myuser",
         "PASSWORD": 'mypass',
         "HOST": '127.0.0.1',
-        "PORT": '5432',
+        "PORT": 5432,
     }
 }
 
@@ -124,4 +124,4 @@ STATIC_URL = "static/"
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+# DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
